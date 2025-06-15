@@ -60,41 +60,82 @@ li {
 
 .navbar button {
     background-color: #5c80af;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: #334d6e 2px 2px;
     border: none;
-    padding: 2px 6px;
+    padding: 4px 10px;
     margin: 0 6px;
 }
 
-.logo {
+.navbar .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
     align-content: center;
 }
-/* finished here */
+
 .header .container{
-    height: 236px;
+    height: 300px;
     display: flex;
     align-items: center;
 }
 
-.header .text {
+.header .in-text {
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
+    width: 600px;
+    font-size: 18px;
 }
 
 .header .hero-text {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 12px;
 }
 
+.header button {
+    margin-top: 16px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 12px;
+    font-weight: 500;
+}
 
-.kitten img{
-    height: 100px;
-    width: 100px;
+.header button a,
+.info button a {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.kitten img {
+    height: 200px;
+    width: 260px;
+    margin: 0 98px;
+}
+
+.images .container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+}
+/* TO DO: edit cards */
+.images .card-info {
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
+align-content: center;
+height: 60px;
+}
+
+.images .cards {
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+    width: 600px;
+
 }
 
 .quote {
@@ -102,6 +143,38 @@ li {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+}
+/* TO DO: center the quote */
+.quote .quotee {
+    justify-items: end;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+}
+/* finished here */
+.info {
+    height: 300px;
+}
+
+.info .container {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+
+.info button {
+    background-color: #3882f6;
+    border-radius: 4px; 
+    border: solid 1px #F9FAF8;
+    padding: 5px 12px;
+    font-weight: 500;
 }
 
 .footer {
